@@ -1,1 +1,1 @@
-this directory displays my current directory
+Task 0. who am i ?
