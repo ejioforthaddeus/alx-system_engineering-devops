@@ -1,1 +1,1 @@
-this directory is the where the file that contain the code that display the content of my directory
+ a script that prints the absolute path name of the current working directory.
