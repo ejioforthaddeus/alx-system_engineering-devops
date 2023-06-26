@@ -4,9 +4,6 @@
   <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/266/8Gu52Qv.png" />
 </p>
 
-## Description
-This project will teach you how to automate the configuration of a web server. We are provided a server for this project that we must configure on our own and that we will reuse for other projects at ALX SE.
-
 ## Resource
 
 <details>
@@ -26,12 +23,35 @@ This project will teach you how to automate the configuration of a web server. W
 - [RFC 7231 (HTTP/1.1)](https://datatracker.ietf.org/doc/html/rfc7231)
 - [RFC 7540 (HTTP/2)](https://datatracker.ietf.org/doc/html/rfc7540)
 
-## Table of contents
-Files | Description
------ | -----------
-[0-transfer_file](./0-transfer_file) | Bash script that transfers a file from a client to a server
-[1-install_nginx_web_server](./1-install_nginx_web_server) | Bash script that installs Nginx on a web server
-[2-setup_a_domain_name](./2-setup_a_domain_name) | Domain name gotten from .TECH Domains
-[3-redirection](./3-redirection) | Bash script that configures an Nginx server so that /redirect_me is redirecting to another page
-[4-not_found_page_404](./4-not_found_page_404) | Bash script that configures a Nginx server to have a custom 404 page that contains the string 'Ceci n'est pas une page'
-[7-puppet_install_nginx_web_server.pp](./7-puppet_install_nginx_web_server.pp) | Time to practice configuring your server with Puppet! Just as you did before, we’d like you to install and configure an Nginx server using Puppet instead of Bash. To save time and effort, you should also include resources in your manifest to perform a 301 redirect when querying /redirect_me.
+## Tasks
+
+<details>
+<summary><a href="./0-transfer_file">0. Transfer a file to your server</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/j2P4SmgY/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./1-install_nginx_web_server">1. Install nginx web server</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/QMbf1FrY/image.png' border='0' alt='image'/></a>
+<a href='https://postimg.cc/621fsx68' target='_blank'><img src='https://i.postimg.cc/vTGqVGpt/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./2-setup_a_domain_name">2. Setup a domain name</a></summary><br>
+<a href='https://postimg.cc/svdGgYqp' target='_blank'><img src='https://i.postimg.cc/L6htvvV0/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./3-redirection">3. Redirection</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/tTmZ8GqZ/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./4-not_found_page_404">4. Not found page 404</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/zvhdBrG6/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./7-puppet_install_nginx_web_server.pp">5. Install Nginx web server (w/ Puppet)</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Vs2dxb0D/image.png' border='0' alt='image'/></a>
+</details>
